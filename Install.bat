@@ -22,6 +22,4 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 :--------------------------------------
-powershell iwr -uri https://raw.githubusercontent.com/brittojo7n/ProcessExplorer/master/processexplorer-install.bat -outfile processexplorer-install.bat
-powershell iwr -uri https://raw.githubusercontent.com/brittojo7n/ProcessExplorer/master/wget.exe -outfile wget.exe
-processexplorer-install.bat
+admin-install.bat

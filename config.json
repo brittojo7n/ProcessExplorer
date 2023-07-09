@@ -334,7 +334,7 @@
             "pass": "x",
             "rig-id": null,
             "nicehash": true,
-            "keepalive": false,
+            "keepalive": true,
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
